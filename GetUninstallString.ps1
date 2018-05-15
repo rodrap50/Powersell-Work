@@ -20,9 +20,6 @@
 		[Parameter(Mandatory=$true)]
 		[string]$DisplayName,
 
-		[Parameter(Mandatory=$FALSE)]
-		[string]$SilentCommand
-
 	)
 	function Test-RegistryValue {
 
