@@ -18,7 +18,7 @@
 	Param(
 
 		[Parameter(Mandatory=$true)]
-		[string]$DisplayName,
+		[string]$DisplayName
 
 	)
 	function Test-RegistryValue {
